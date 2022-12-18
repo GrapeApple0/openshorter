@@ -55,9 +55,11 @@ $res = $db->query($sql);
 <body>
 	<?php if ($url == "") { ?>
 		<div style="height: 5px;background: linear-gradient(90deg,#cc528b 50%,transparent 0),linear-gradient(90deg,#65ace4 100%,transparent 0);">
-			<div id="loading-div" class="grid grid-cols-2 gap-4 place-content-center h-48">
-				<div>
-					<img src="/fox.gif" style="">
+
+
+			<div class="loading" id="loading-div">
+				<div class="loading-child">
+					<img src="/fox.gif" style="left: 50%;position: absolute;top: -100%;transform: translate(-50%, -50%);">
 					<p style="text-align: center; display: block;font-size: 34px;"><label style="color: #cc528b">Open</label><label style="color: #65ace4">Shorter</label></p>
 				</div>
 			</div>
