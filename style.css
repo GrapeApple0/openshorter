@@ -8,7 +8,7 @@ body {
 
 .loading {
 	width: 100%;
-	height: 100vh;
+	height: 99vh;
 	position: relative;
 	z-index: 10000;
 	font-family: 'IBM Plex Sans JP', sans-serif;
